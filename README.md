@@ -105,8 +105,7 @@ norwich-food-hygiene-analysis/
 ├── README.md
 ├── data/
 │   └── FHRS232en-GB.xml          # Raw source file
-├── Norwich_Food_Hygiene_Analysis.xlsx   # Cleaned data + Pivot Tables
-└── docs/                         # Optional supporting notes
+└── Norwich_Food_Hygiene_Analysis.xlsx   # Cleaned data + Pivot Tables
 ```
 
 ---
