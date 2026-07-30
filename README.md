@@ -24,7 +24,7 @@ The goal is to showcase core Level 3 Data Technician skills: Power Query data pr
 
 ## Key Results (from Pivot Table analysis)
 
-### Overall Compliance Snapshot
+### Overall Compliance Metrics
 
 | Metric                              | Value      |
 |-------------------------------------|------------|
@@ -35,6 +35,8 @@ The goal is to showcase core Level 3 Data Technician skills: Power Query data pr
 | Overall compliance rate             | **77.9%**  |
 | Awaiting Inspection                 | 172        |
 | Rated 0–2 (Improvement needed)      | 23         |
+
+### Rating Distribution by Business Type Chart
 
 ### Business Type Highlights
 - Largest category: Restaurant/Cafe/Canteen (447 premises)
