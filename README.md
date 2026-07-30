@@ -1,6 +1,6 @@
 # Norwich Food Hygiene & Safety Compliance Analysis
 
-End-to-end data preparation and analysis project that transforms official Food Hygiene Rating Scheme (FHRS) XML data for Norwich into a clean, analysis-ready Excel Table using Power Query, then explores compliance patterns with advanced Pivot Tables.
+Data preparation and analysis project that transforms official Food Hygiene Rating Scheme (FHRS) XML data for Norwich into a clean, analysis-ready Excel Table using Power Query, then explores compliance patterns with advanced Pivot Tables.
 
 ---
 
