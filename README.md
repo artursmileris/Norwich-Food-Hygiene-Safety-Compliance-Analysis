@@ -1,6 +1,6 @@
 # Norwich Food Hygiene & Safety Compliance Analysis
 
-Data preparation and analysis project that transforms official Food Hygiene Rating Scheme (FHRS) XML data for Norwich into a clean, analysis-ready Excel Table using Power Query, then explores compliance patterns with advanced Pivot Tables.
+Data preparation and analysis project that transforms official Food Hygiene Rating Scheme XML data for Norwich into a clean, analysis-ready Excel Table using Power Query, then explores compliance patterns using Pivot Tables.
 
 ---
 
@@ -14,7 +14,7 @@ This project demonstrates a complete workflow covering:
 - **Analysis** – creating multiple Pivot Tables to explore rating distributions, compliance rates, average inspection scores, geographic patterns, and trends over time
 - **Insight generation** – identifying which business types and areas perform best/worst on food hygiene standards
 
-The goal is to showcase core Level 3 Data Technician skills: Power Query data preparation, Excel Tables, Pivot Tables, and clear documentation of a reproducible analysis process.
+The goal is to showcase core Level 3 Data Technician skills: Power Query data preparation, Pivot Tables, Pivot Charts and clear documentation of a reproducible analysis process.
 
 **Data source:** Food Hygiene Rating Scheme (FHRS) – Norwich City Council  
 **Extract date:** 21 July 2026  
@@ -65,7 +65,7 @@ The goal is to showcase core Level 3 Data Technician skills: Power Query data pr
 - Loaded the result as an Excel Table named `FoodHygieneData`
 
 ### Step 3 – Pivot Table Analysis
-Eight Pivot Tables were created to answer key questions:
+7 Pivot Tables were created to answer key questions:
 
 1. Rating distribution by Business Type  
 2. Compliance rate by Business Type  
@@ -73,8 +73,7 @@ Eight Pivot Tables were created to answer key questions:
 4. Performance by Postcode District  
 5. Inspection trends over time  
 6. Score components by final rating  
-7. Awaiting Inspection / Exempt breakdown  
-8. High / low performers (filtered views)
+7. Awaiting Inspection / Exempt breakdown
 
 ---
 
@@ -103,11 +102,11 @@ Eight Pivot Tables were created to answer key questions:
 ## Repository Structure
 
 ```
-norwich-food-hygiene-analysis/
+Norwich-Food-Hygiene-Safety-Compliance-Analysis/
 ├── README.md
 ├── data/
 │   └── FHRS232en-GB.xml          # Raw source file
-└── Norwich_Food_Hygiene_Analysis.xlsx   # Cleaned data + Pivot Tables
+└── Norwich_Food_Hygiene_Analysis.xlsx   # Cleaned data, Pivot Tables & Pivot Charts
 ```
 
 ---
@@ -121,14 +120,11 @@ norwich-food-hygiene-analysis/
 - Building analysis-ready Excel Tables
 - Designing multiple Pivot Tables for different analytical questions
 - Calculating compliance rates and interpreting FHRS scores
-- Clear documentation of a data workflow
+- Clear documentation of the data workflow
 
 ---
 
 ## Future Improvements
 
-- Add Slicers and a simple dashboard sheet
 - Compare Norwich results with another local authority
-- Create Pivot Charts for the main distributions
-- Add a short written findings summary for stakeholders
 - Parameterise the Power Query source path for easier reuse
